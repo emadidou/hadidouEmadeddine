@@ -97,6 +97,16 @@ a {
   color: #3498db;
   text-decoration: none;
 }
+.container1{
+  display: flex;
+  justify-content: space-between;
+  flex: 0;
+  padding: 0 10px;
+  width: 100%;
+}
+.languages{
+  margin-right: 6rem;
+}
 
 a:hover {
   text-decoration: underline;
@@ -129,4 +139,21 @@ a:hover {
   background-color: #e4e2e2;
 
   border-radius: 5px;
+}
+.mobile-hr{
+  display: none;
+}
+@media(max-width:600px){
+  .container1{
+    display: inline-block;
+    padding: 0;
+  }
+  .languages{
+    margin-top: 1rem;
+  }
+  .mobile-hr {
+    display: block;
+    margin: 1.5em 0;
+    max-width: 100%;
+  }
 }
