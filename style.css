@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+body {
+	background: linear-gradient(-45deg,  #008170, #005B41, #232D3F,#0F0F0F);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 200vh;
+}
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    height: 80vh;
+    flex-direction: column;
+    color: white;
+}
+
+.me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+
+    margin-bottom: 1rem;
+}
+.content1{
+    background-color: white;
+    height: 50vh;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2{
+    height: 80vh;
+}
+.container3{
+    background-color: white;
+    width: 100%;
+}
+
+.grid-content{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+    gap: 10px;
+
+    
+}
+.title-cd{
+ color: #F3F8FF;
+ grid-column-start: 2 ;
+ grid-row-start: 1;
+}
+.card{
+    background-color: #F3F8FF;
+
+    
+}
+.cd{
+    display: flex;
+    gap: 2rem;
+    grid-column-start: 2 ;
+    grid-row-start: 2;
+}
+
+
+.wave-text span {
+    display: inline-block;
+    font-size: 3rem;
+    animation: wave 2s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+.wave-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.wave-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.wave-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.wave-text span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.wave-text span:nth-child(6) {
+    animation-delay: 1.0s;
+}
+.wave-text span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+.wave-text span:nth-child(8) {
+    animation-delay: 1.4s;
+}
+.wave-text span:nth-child(9) {
+    animation-delay: 1.6s;
+}
+.wave-text span:nth-child(10) {
+    animation-delay: 1.8s;
+}
+.wave-text span:nth-child(10) {
+    animation-delay: 2s;
+}
+.wave-text span:nth-child(11) {
+    animation-delay: 2.2s;
+}
+.wave-text span:nth-child(12) {
+    animation-delay: 2.4s;
+}
+.wave-text span:nth-child(13) {
+    animation-delay: 2.6s;
+}
+.wave-text span:nth-child(14) {
+    animation-delay: 2.8s;
+}
+.wave-text span:nth-child(15) {
+    animation-delay: 3s;
+}
+.wave-text span:nth-child(16) {
+    animation-delay: 3.2s;
+}
+.wave-text span:nth-child(17) {
+    animation-delay: 3.4s;
+}
+.wave-text span:nth-child(18) {
+    animation-delay: 3.6s;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(-2px);
+    }
+    50% {
+        transform: translateX(-2px);
+    }
+}
