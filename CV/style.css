@@ -91,7 +91,10 @@ ul {
   color: #888;
   margin-bottom: 0.2rem;
 }
-
+.headop{
+  display: flex;
+  justify-content: space-between;
+}
 /* Links */
 a {
   color: #3498db;
