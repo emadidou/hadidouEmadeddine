@@ -52,8 +52,14 @@ body {
 }
 
 #contact{
+    display: flex;
     color: azure;
+    text-align:start;
+    justify-content: center;
+    margin-left: 20%;
+
 }
+
 
 #foter{
     background-color: aliceblue;
@@ -144,7 +150,11 @@ body {
         margin-bottom: 0rem;
         
     }
+    #contact{
 
+        margin: 2rem;
+
+    }
 }
 @keyframes gradient {
 	0% {
